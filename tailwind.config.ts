@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#D4A574",
+        secondary: "#D97843",
+        dark: "#0A0A0A",
+        "dark-alt": "#1A1A1A",
+        light: "#FFFFFF",
+        gray: "#A0A0A0",
+      },
+      fontFamily: {
+        heading: ["Inter", "sans-serif"],
+        body: ["Inter", "sans-serif"],
       },
     },
   },
