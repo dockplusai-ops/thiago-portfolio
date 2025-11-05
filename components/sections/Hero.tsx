@@ -223,7 +223,6 @@ export default function Hero() {
             <motion.div
               className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80"
               whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3 }}
               animate={{
                 y: [0, -20, 0],
               }}
